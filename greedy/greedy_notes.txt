@@ -1,0 +1,19 @@
+A greedy algorithm is an algorithmic approach where, at each step, the algorithm selects the best possible choice available at that moment, with the hope that this locally optimal choice will lead to a globally optimal solution.
+
+To identify a problem that can be solved using a greedy algorithm, you need to look for two main properties:
+
+Greedy Choice Property:This means that you choose the option that seems best at the moment without worrying about how it will affect the overall solution.
+
+Optimal Substructure: In other words, the problem can be broken down into smaller subproblems, and the optimal solution to the larger problem can be built from the optimal solutions to the subproblems.   
+
+
+
+    Minimum Spanning Tree: Given a connected, undirected graph with weighted edges, find a spanning tree of the graph with the minimum total weight.
+
+    Shortest Path: Find the shortest path from a starting node to a destination node in a weighted graph.
+
+    Knapsack Problem (Fractional): Given a set of items, each with a weight and a value, determine the number of each item to include in a knapsack so that the total weight does not exceed a given limit, and the total value is maximized.
+
+    Activity Selection: Given a set of activities with start and finish times, select the maximum number of activities that can be performed by a single person, assuming that a person can only work on one activity at a time.
+
+    Coin Change Problem: Given a set of coin denominations and a target amount, find the minimum number of coins required to make up the target amount.
